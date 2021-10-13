@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Navigation Bar -->
+    <div class="navbar">
+        <div class="label">Student Management MiniApp</div>
+        <div class="navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+        </div>
+    </div>
+    <!-- ================== -->
+    <!-- Body Content -->
+    <div class="body-container">
+        <h1 class="title">
+            Student Management <br> MiniApp
+        </h1>
+            <hr>
+        <div class="form-container">
+            <!-- Add Student -->
+            <div class="add-container">
+                <p class="form-title">Add Student</p>
+                <button class="showw">Show Form Add New Student</button>
+                <div class="add-form-container">
+                        <br>
+                    <label for="nim">Student ID (NIM)</label>
+                        <br>
+                        <br>
+                    <form>
+                        <input id="nim" type="text" placeholder="105011345732" value="">
+                    </form>
+                        <br>
+                    <label for="fullname">Full Name</label>
+                        <br>
+                        <br>
+                    <form>
+                        <input id="fullname" type="text" placeholder="Stivia Ngangi">
+                    </form>
+                        <br>
+                    <label for="Gender">Gender</label>
+                        <br>
+                        <br>
+                    <form>
+                        <input type="radio" name="gender" id="Male" value="Male" checked><label for="Male">Male</label>
+                        <input type="radio" name="gender" id="Female" value="Female"><label for="Female">Female</label>
+                    </form>
+                        <br>
+                    <label for="faculty1">Faculty</label>
+                        <br>
+                        <br>
+                    <form>
+                        <select name="faculty1" id="faculty1">
+                            <option value="" disabled selected>-- SELECT FACULTY --</option>
+                        </select>
+                    </form>
+                        <br>
+                    <label for="program1">Program of Study</label>
+                        <br>
+                        <br>
+                    <form>
+                        <select name="program1" id="program1">
+                            <option value="" disabled selected>-- SELECT PROGRAM OF STUDY --</option>
+                        </select>
+                    </form>
+                    <button type="submit">Add Student</button>
+                </div>
+            </div>
+            <!-- Filter Student By -->
+            <div class="filter-container">
+                <p class="form-title">Filter Student By</p>
+                <label for="faculty">Faculty</label>
+                <form>
+                    <select name="faculty2" id="faculty2">
+                        <option value="" disabled selected>-- SELECT FACULTY --</option>
+                    </select>
+                </form>
+                <button id="fak" type="submit">Show Student</button>
+                    <br>
+                <label for="program2">Program of Study</label>
+                <form>
+                    <select name="program2" id="program2">
+                        <option value="" disabled selected>-- SELECT PROGRAM OF STUDY --</option>
+                    </select>
+                </form>
+                <button id="prodi" type="submit">Show Student</button>
+            </div>
+        </div>
+        <!-- Our Student -->
+            <hr>
+        <div class="our-student">
+            <p class="p1">Our Student</p>
+            <form action="">
+                <input id="cari" type="text" placeholder="Search student by name..">
+            </form>
+            <table>
+                <tr>
+                    <th>Student ID/NIM</th>
+                    <th>Full Name</th>
+                    <th>Gender</th>
+                    <th>Faculty</th>
+                    <th>Program of Study</th>
+                    <th>Action</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <!-- ============ -->
+    
+    <!-- Footer -->
+    <div class="footer">
+        <div class="credit">&#169; Stivia Yuliefri Lulij Ngangi</div>
+    </div> 
+    
+    <script src="script.js"></script>
+</body>
+</html>

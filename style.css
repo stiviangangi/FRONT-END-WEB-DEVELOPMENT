@@ -1,0 +1,172 @@
+body {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: #035c00;
+    color: white;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar .label {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.navbar .navigation {
+    display: flex;
+    font-size: 12px;
+    padding-left: 40px;
+
+}
+
+.navbar .navigation a {
+    flex: 1;
+    text-align: center;
+    padding: 0px 20px 0px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.body-container {
+    width: 80%;
+   
+    margin: auto;
+    padding-top: 60px;
+}
+
+.body-container .title {
+    font-size: 40px;
+    color: #035c00;
+    padding-top: 30px;
+}
+
+.body-container .form-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.body-container .form-container .add-container {
+    flex: 2;
+    
+}
+
+.body-container .form-container .add-container button{
+    height: 30px;
+    width: 200px;
+    font-size: 12px;
+    color: white;
+    background-color: #035c00;
+    border: none;
+}
+
+.body-container .form-container .add-container .add-form-container{
+    display: none;
+}
+
+.body-container .form-container .add-container .add-form-container form input#nim{
+    width: 80%;
+    height: 30px;
+}
+.body-container .form-container .add-container .add-form-container form input#fullname{
+    width: 80%;
+    height: 30px;
+}
+.body-container .form-container .add-container .add-form-container form select{
+    width: 80%;
+    height: 30px;
+}
+.body-container .form-container .add-container .add-form-container button{
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.body-container .form-container .filter-container{
+    flex: 1;
+}
+
+.body-container .form-container .form-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.body-container .form-container .filter-container select{
+    height: 30px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+.body-container .form-container .filter-container button{
+    height: 30px;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    background-color:  #035c00;
+    border: none;
+}
+
+.our-student {
+    text-align: center;
+}
+
+.our-student p.p1 {
+    font-size: 40px;
+}
+
+.our-student input {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+table {
+    margin: 10px auto 0px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+th, td {
+    border-spacing: 0px;
+    padding: 10px 30px 10px;
+}
+
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: #035c00;
+    color: white;
+}
+
+.footer .credit {
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+#p1 {
+    font-size: 40px;
+    color:  #035c00;
+}
+
+#p3 {
+    display: inline;
+    background-color: green;
+}
+#p4 {
+    display: inline;
+    background-color: orangered;
+}
